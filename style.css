@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Urbanist&display=swap');
+
+body {
+    background-color: rgb(17, 23, 39);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Urbanist", sans-serif;
+}
+
+.content h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: rgb(225, 125, 153);
+}
+
+.question {
+    font-weight: bolder;
+    color: rgb(255,255,255);
+}
+
+.quote {
+    color: rgb(165, 36, 42);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.desc {
+    font-weight: bold;
+    color: rgb(255,255,255);
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Urbanist", sans-serif;
+}
+
+.info h1 {
+    font-size: large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    padding-right: 120px;
+}
+
+.bakery {
+    display: flex;
+    justify-content: center;
+    color: rgb(255,255,255);
+    padding-bottom: 5px;
+}
+
+.bakery img {
+    width: 350px;
+    height: 200px;
+}
+
+.bakery p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.tower {
+    display: flex;
+    justify-content: center;
+    color: rgb(255,255,255);
+    padding-bottom: 5px;
+}
+
+.tower img {
+    width: 350px;
+    height: 200px;
+}
+
+.tower p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.fields {
+    display: flex;
+    justify-content: center;
+    color: rgb(255,255,255);
+    padding-bottom: 10px;
+}
+
+.fields img {
+    width: 348px;
+    height: 200px;
+}
+
+.fields p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Alice", "Urbanist", sans-serif;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255,255,255);
+    text-decoration: underline;
+    text-decoration-color: rgb(225, 125, 153);
+    padding: 10px;
+}
+
+.input {
+    padding-top: 10px;
+    color: rgb(191, 37, 45);
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Alice", "Urbanist", sans-serif;
+    color: rgb(255,255,255);
+}
+
+.about h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255,255,255);
+    text-decoration: underline;
+    text-decoration-color: rgb(225, 125, 153);
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.jobloc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobloc p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    color: rgb(165, 36, 42)
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-style: double;
+    border-color: rgb(255,255,255);
+    border-width: 10px;
+    box-shadow: 10px 10px 30px rgb(116, 30, 35);
+    background-color: rgb(128,191,234);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: rgb(116, 30, 35);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Alice", "Urbanist", sans-serif;
+
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.links li a {
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.links li a:hover {
+    color: rgb(225, 125, 153);
+}
+
+.copyright {
+    background: rgb(90, 29, 18);
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
